@@ -1,0 +1,49 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: consolas;
+}
+
+section{
+
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    background: #000000;
+}
+
+body{
+
+    background: #000000;
+}
+
+h2 {
+    color:#2BD9D9;
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+p{
+color: #A438A6;
+font-size: 1,6em;
+}
+
+
+::-webkit-scrollbar{
+width: 0;
+
+}
+
+#progressbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15px;
+    border-radius: 10px;
+    background:  linear-gradient(to top, #fcb045, #A438A6, #2b72f5, #f8731b);
+}
+
+
+
+
